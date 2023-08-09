@@ -1,0 +1,15 @@
+GET http://localhost:3306/ HTTP/1.1
+
+###
+GET http://localhost:3306/votes HTTP/1.1
+
+###
+
+POST http://localhost:3306/vote HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "yasar",
+  "email": "arif@gmail.com",
+  "mobile": "8874566688"
+}
